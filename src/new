@@ -1,0 +1,27 @@
+"San Diego");
+citiesListModel.addElement("Los Angeles");
+citiesListModel.addElement("Orange County");
+citiesListModel.addElement("Ontario");
+citiesListModel.addElement("Bakersfield");
+citiesListModel.addElement("Oakland");
+citiesListModel.addElement("Sacramento");
+citiesListModel.addElement("San Jose");
+citiesListModel.addElement("San Francisco");
+citiesListModel.addElement("Eureka");
+citiesListModel.addElement("Eugene");
+citiesListModel.addElement("Portland");
+citiesListModel.addElement("Spokane");
+citiesListModel.addElement("Seattle");
+
+
+seatComboBox.addItem("Aisle");
+seatComboBox.addItem("Middle");
+seatComboBox.addItem("Window");
+
+
+mealComboBox.addItem("Chicken");
+mealComboBox.addItem("Mystery Meat");
+mealComboBox.addItem("Kosher");
+mealComboBox.addItem("Vegetarian");
+mealComboBox.addItem("Fruit Plate");
+mealComboBox.setSelectedItem("No Preference");
