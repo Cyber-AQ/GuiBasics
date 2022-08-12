@@ -29,7 +29,8 @@ public class OpeningFile extends JFrame {
 
         if (openingFile == JFileChooser.APPROVE_OPTION){
             File gettingFile = fileChooser.getSelectedFile();
-            String fileName = fileChooser.getName(gettingFile);
+           // String fileName = fileChooser.getName(gettingFile);    //an alternative.
+            String fileName = gettingFile.getName();
 
             txt.setText(fileName);
         }
